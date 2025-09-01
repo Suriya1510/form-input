@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="st.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Form Input Showcase</h1>
+      <p class="one">
+        A comprehensive demonstration of all HTML form input types with custom
+        CSS styling
+      </p>
+    </header>
+    <div class="container">
+      <br>
+      <div class="subcon1">
+        <h1><strong> Text Inputs</strong></h1>
+
+        <form>
+          <p>
+            Text input <br /><input
+              type="text"
+              name="username"
+              placeholder="Enter text..."
+            />
+          </p>
+          <p>
+            Password Input <br /><input
+              type="password"
+              placeholder="Enter password..."
+            />
+          </p>
+          <p>
+            Email <br /><input type="email" placeholder="chennai@gmail.com" />
+          </p>
+          <p>
+            Search input <br /><input type="search" placeholder="search..." />
+          </p>
+          <p>
+            URL input <br /><input type="url" placeholder="https//google.com" />
+          </p>
+          <p>
+            Mobile No<br /><input type="tel" placeholder="+91 9939393939" />
+          </p>
+        </form>
+      </div>
+      <br>
+      <div class="subcon2">
+        <form>
+          <h1><strong>Numbers & Ranges</strong></h1>
+
+          <p>
+            Number input <input type="number" placeholder="Enter number..." />
+          </p>
+<label for="rangeInput">Range Input: </label> 
+ <span id="rangevalue">0</span>
+<input type="range" id="rangeInput" min="0" max="100" value="0" oninput="rangeValue.textContent=this.value">
+
+       </form>
+      </div>
+      <br>
+
+      <div class="subcon3">
+        <form>
+          <h1> <strong>Date & Time</strong></h1>
+          <p >Date Input <input type="date"> </p>
+          <p>Time Input <input type="time"></p>
+          <p>DateTime-Local Input <input type="datetime-local"></p>
+          <p>Month Input <input type="month"></p>
+          <p>Week Input <input type="week"></p>
+
+
+
+
+        </form>
+
+      </div>
+      <br>
+
+      <div class="subcon4">
+        <form >
+          <h1> <strong>Color & File</strong></h1>
+
+          <p>Color Input: <input class="color" type="color"></p>
+              <label for="fileUpload" class="file">Choose File</label>
+  <input type="file" id="fileUpload" >
+  <span  id="fileName">No file chosen</span>
+  <br>
+  <br>
+        </form>
+
+
+
+      </div>
+
+        <br>
+
+      <div class="subcon5">
+        <form >
+          <h1> <strong>Selection Controls</strong></h1>
+
+          <p>Checkbox Input <input class="Checkbox" type="checkbox">  I agree the terms and condition</p>
+          <p>Radio Button</p>
+<input type="radio" id="html">
+ <label for="html">HTML</label><br>
+ <input type="radio" id="css" >
+ <label for="css">CSS</label><br>
+ <input type="radio" id="javascript">
+ <label for="javascript">JavaScript</label><br><br>
+        </form>
+
+
+
+      </div>
+<br>
+
+      <div class="subcon6">
+        <form>
+          <h1> <strong>Text Area</strong></h1>
+<textarea  placeholder="Enter your message..." ></textarea>
+<br>
+          <br>
+
+
+
+        </form>
+
+      </div>
+    <br>
+
+      <div class="subcon7">
+
+
+        <form >
+                    <h1> <strong>Other Elements</strong></h1>
+
+
+  <label for="progress">PROGRESS BAR</label>
+  <progress id="progress" value="70" max="100"></progress>
+  <br>
+  <br>
+
+  <label for="meter">METER</label>
+  <meter id="meter" value="0.7" min="0" max="1"></meter> <br> <br>
+
+  <label for="output">OUTPUT</label>
+  <output id="output">Calculated Value: 42</output>
+  <br>
+
+
+        </form>
+
+      </div>
+      <br>
+
+
+      <div class="end">
+ <form >
+
+  <input class="submit" type="submit">
+  <input type="reset" class="reset" >
+   <button class="cancel">Cancel</button>
+ </form>
+      </div>
+
+    </div>
+  </body>
+</html>
